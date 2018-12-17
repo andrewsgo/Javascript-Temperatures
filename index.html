@@ -9,7 +9,7 @@ function Celsius(fahrenheit){
 } 
             
 function Fahrenheit(celsius){
-    F = ((5/9) * celsius) + 32;
+    F = ((5/9) * celsius) - 32;
     return F;
 } 
             
@@ -19,9 +19,9 @@ function Fahrenheit(celsius){
         </script>
     </head>
     <body>
-        <input type="button" value="Convert to F";
+        <input type="button" value="C to F";
                onclick="f=prompt('Enter Celsius value','0');alert(Celsius(f))">
-        <input type="button" value="Convert to C";
+        <input type="button" value="F to C";
                onclick="c=prompt('Enter Fahrenheit value','32');alert(Fahrenheit(c))">
     </body>
 </html>
